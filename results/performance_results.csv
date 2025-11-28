@@ -1,0 +1,14 @@
+Operation, ArraySize, CPUTime(ms), GPUTime(ms), Verification
+REDUCTION, 1024, 0.002217, 0.035808, PASS
+REDUCTION, 4096, 0.008689, 0.040864, PASS
+REDUCTION, 16384, 0.034619, 0.036864, PASS
+REDUCTION, 65536, 0.138298, 0.036224, PASS
+REDUCTION, 262144, 0.553204, 0.044928, PASS
+REDUCTION, 1048576, 2.214551, 0.055360, PASS
+PREFIX_SUM, 1024, 0.002299, 0.025952, PASS
+PREFIX_SUM, 2048, 0.004379, 0.024448, PASS
+PREFIX_SUM, 4096, 0.008700, 0.060640, PASS
+PREFIX_SUM, 8192, 0.017332, 0.055232, PASS
+~                                                                                                 
+~                                                                                                 
+~                 
